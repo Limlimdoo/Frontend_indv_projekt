@@ -1,4 +1,5 @@
-ul {
+
+.Navbarbutton {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -9,11 +10,11 @@ ul {
     width: 100%;
 }
 
-li {
-    float: left;
+.Navbarbutton li {
+    float: right;
 }
 
-li a{
+.Navbarbutton li a {
     display: block;
     color: white;
     text-align: center;
@@ -22,11 +23,91 @@ li a{
 
 }
 
-li a:hover:not(.active){
+.Navbarbutton li a:hover:not(.active) {
     background-color: #111;
 }
 
-.active{
+.Navbarbutton .active {
     background-color: cornflowerblue;
 }
-    
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+    background-color: #ededed;
+}
+
+.footer {
+    margin-top: auto;
+    padding: 40px 0;
+    background-color: #fff;
+}
+
+.footer .social {
+    text-align: center;
+    padding-bottom: 25px;
+    color: #4b4c4d;
+}
+
+.footer .social a {
+    font-size: 30px;
+    color: inherit;
+    border: 1px solid #ccc;
+    padding: 4px;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: 0.75;
+}
+
+.footer .social a:hover {
+    opacity: 0.9;
+}
+
+.footer ul {
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.footer ul li a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.footer ul li {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.footer ul li a:hover {
+    opacity: 1;
+}
+
+.footer .copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #aaa;
+}
+
+

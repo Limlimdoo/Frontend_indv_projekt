@@ -1,0 +1,299 @@
+main {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    background: transparent;
+    margin-top: 10rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* First big box */
+
+.big-box-1 {
+    background-image: url(https://saabworld.net/wp/wp-content/uploads/2017/02/2008_saab_9-3_turbo_x_press_release.jpg);
+    background-size: cover;
+    background-position: center;
+    grid-row: span 26;
+    grid-column: span 2;
+    position: relative;
+    transition: 0.7s;
+    
+}
+
+.big-box-1:hover {
+    background-image: url(http://saabworld.net/wp/wp-content/uploads/2017/02/05-2008-Saab-Turbo-X-sedan-rear.jpg);
+    transition: 0.7s ;
+}
+
+.big-text-1 {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 4px;
+    opacity: 80%;
+    margin-right: 1rem;
+}
+
+/* First small box */
+
+.small-box-1 {
+    background-image: url(https://saabworld.net/wp/wp-content/uploads/2017/01/Saab_Aero_X_Concept_Villa_dEste_Concorso.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    transition: 0.7s;
+    grid-row: span 13;
+    
+}
+
+.small-box-1:hover {
+    background-image: url(http://saabworld.net/wp/wp-content/uploads/2017/01/saab_aero_x_concept_car.jpg);
+    transition: 0.7s;
+}
+
+.small-text-1 {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 4px;
+    opacity: 80%;
+    margin-right: 1rem;
+}
+
+/* second small box */
+
+.small-box-2 {
+    background-image: url(https://saabworld.net/wp/wp-content/uploads/2016/04/2010-saab-9-5-front.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    transition: 0.7s;
+    grid-row: span 13;
+}
+
+.small-box-2:hover {
+    background-image: url(http://saabworld.net/wp/wp-content/uploads/2016/04/2010-saab-9-5-interior.jpg);
+    transition: 0.7s;
+}
+
+.small-text-2 {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 4px;
+    opacity: 80%;
+    margin-right: 1rem;
+}
+
+
+/* second big box */
+
+.big-box-2 {
+    background-image: url(https://saabworld.net/wp/wp-content/uploads/2016/07/2006_saab_9-3_aero_sedan_07.jpg);
+    background-size: cover;
+    background-position: center;
+    grid-row: span 26;
+    grid-column: span 2;
+    position: relative;
+    transition: 0.7s;
+    
+}
+
+.big-box-2:hover {
+    background-image: url(https://saabworld.net/wp/wp-content/uploads/2016/07/2006_saab_9-3_aero_sedan_25.jpg);
+    transition: 0.7s ;
+}
+
+.big-text-2 {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 4px;
+    opacity: 80%;
+    margin-right: 1rem;
+}
+
+/* third small box */
+
+.small-box-3 {
+    background-image: url(https://saabworld.net/wp/wp-content/uploads/2016/10/1978_saab_99_turbo_brochure-04.jpg);
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+    transition: 0.7s;
+    grid-row: span 13;
+    
+}
+
+.small-box-3:hover {
+    background-image: url(https://saabworld.net/wp/wp-content/uploads/2016/10/1978_saab_99_turbo_brochure-05.jpg);
+    transition: 0.7s;
+}
+
+.small-text-3 {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 4px;
+    opacity: 80%;
+    margin-right: 1rem;
+}
+
+/* fourth small box */
+
+.small-box-4 {
+    background-image: url(https://saabworld.net/wp/wp-content/uploads/2016/10/1986_saab_9000_brochure_02.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    transition: 0.7s;
+    grid-row: span 13;
+}
+
+.small-box-4:hover {
+    background-image: url(https://saabworld.net/wp/wp-content/uploads/2016/10/1986_saab_9000_brochure_01.jpg);
+    transition: 0.7s;
+}
+
+.small-text-4 {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 4px;
+    opacity: 80%;
+    margin-right: 1rem;
+}
+
+/* third big box */
+
+.big-box-3 {
+    background-image: url(http://saabworld.net/wp/wp-content/uploads/2005/02/2005-saab-9-5-1117795.jpg);
+    background-size: cover;
+    background-position: center;
+    grid-row: span 26;
+    grid-column: span 2;
+    position: relative;
+    transition: 0.7s;
+    
+}
+
+.big-box-3:hover {
+    background-image: url(http://saabworld.net/wp/wp-content/uploads/2005/02/2005-saab-9-5-1100526.jpg);
+    transition: 0.7s ;
+}
+
+.big-text-3 {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 4px;
+    opacity: 80%;
+    margin-right: 1rem;
+}
+
+/* fifht small box */
+
+.small-box-5 {
+    background-image: url(https://saabworld.net/wp/wp-content/uploads/2006/01/2006_saab_9-3_sportcombi_35.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    transition: 0.7s;
+    grid-row: span 13;
+    
+}
+
+.small-box-5:hover {
+    background-image: url(https://saabworld.net/wp/wp-content/uploads/2006/01/2006_saab_9-3_sportcombi_36.jpg);
+    transition: 0.7s;
+}
+
+.small-text-5 {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 4px;
+    opacity: 80%;
+    margin-right: 1rem;
+}
+
+/* sixth small box */
+
+.small-box-6 {
+    background-image: url(https://saabworld.net/wp/wp-content/uploads/2016/03/1970_saab_sonett_iii_usa_heritage_collection_W70HV_SB002.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    transition: 0.7s;
+    grid-row: span 13;
+
+}.small-box-6:hover {
+    background-image: url(https://saabworld.net/wp/wp-content/uploads/2016/03/1970_saab_sonett_iii_usa_heritage_collection_W70HV_SB004.jpg);
+    transition: 0.7s;
+}
+
+.small-text-6 {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 4px;
+    opacity: 80%;
+    margin-right: 1rem;
+}
+
+
+/* Responsive */
+
+@media (max-width: 600px) {
+    .small-box-1, .small-box-2, .small-box-3, .small-box-4, .small-box-5, .small-box-6 {
+        display: none;
+    }
+    .big-box-1, .big-box-2, .big-box-3 {
+        grid-column: span 3;
+    }
+
+}
+@media (min-width: 900px) {
+    main {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
